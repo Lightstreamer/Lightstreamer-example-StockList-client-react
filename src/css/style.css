@@ -1,0 +1,6 @@
+th, td{
+    text-align: right
+}
+[data-field="stock_name"] {
+    text-align: left
+}
