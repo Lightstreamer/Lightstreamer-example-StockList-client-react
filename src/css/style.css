@@ -18,6 +18,9 @@ body {
     color: #00d8ff;
     font-family: proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
 }
+table {
+    border-collapse: collapse;
+}
 #wrap {
     margin: 0 auto;
     width: 776px;
@@ -53,8 +56,12 @@ body {
 a {
     color: #fff;
 }
+th {
+    background-color: #00d8ff;
+    color: #2D2D2D;
+}
 th, td{
-    text-align: right
+    text-align: right;
 }
 [data-field="stock_name"] {
     text-align: left
