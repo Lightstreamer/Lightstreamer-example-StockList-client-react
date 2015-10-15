@@ -35,7 +35,7 @@ define(function() {
       {field: "min", label: "Min"},
       {field: "max", label: "Max"},
       {field: "ref_price", label: "Ref."},
-      {field: "open_price", label: "Open"},
+      {field: "open_price", label: "Open"}
     ]
   };
 
