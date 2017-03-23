@@ -5,7 +5,7 @@ A simple stocklist demo application showing integration between [React](https://
 ## Live Demo
 
 [![screenshot](screenshot.png)](http://demos.lightstreamer.com/ReactDemo)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/ReactDemo)<br>
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/ReactDemo)<br>
 
 ## Details
 
