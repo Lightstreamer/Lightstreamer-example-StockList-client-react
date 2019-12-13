@@ -17,7 +17,7 @@ Each row in the table is implemented as an instance of a React class. The state 
 an associated Lightstreamer Subscription; check the Stock.js class to see how this is done.
 
 The demo includes the following client-side functionalities:
-* A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 10 items, subscribed to in **MERGE** mode.
+* A [Subscription](https://lightstreamer.com/api/ls-web-client/latest/Subscription.html) containing 10 items, subscribed to in **MERGE** mode.
 
 ## JSX
 
