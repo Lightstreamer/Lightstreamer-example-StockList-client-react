@@ -36,8 +36,9 @@ Automatically convert the jsx file to js whenever a change is made
 If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it, then launch the server.
+* Get the `lightstreamer.min.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.min.js) and put it in the `src/js` folder.
 * Deploy this demo on the Lightstreamer Server (used as Web server) or in any external Web Server: copy there the contents of the `/src` folder of this project. The client demo configuration assumes that Lightstreamer Server and this client are launched on the same machine. If you need to target a different Lightstreamer server, please open the `src/js/Constants.js` and configure the SERVER element accordingly.
-* Lightstreamer JS client, RequireJS and React are currently hot-linked in the html page: you may want to replace them with a local version and/or to upgrade their version.
+* RequireJS and React are currently hot-linked in the html page: you may want to replace them with a local version and/or to upgrade their version.
 * Open your browser and point it to to the newly deployed folder.
 
 ## See Also
@@ -53,7 +54,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 
 ## Lightstreamer Compatibility Notes
 
-- Compatible with Lightstreamer JavaScript Client library version 6.0 or newer.
+- Compatible with Lightstreamer JavaScript Client library version 6.0 or newer (installation instructions for version 8.0 or newer).
 
 
 
