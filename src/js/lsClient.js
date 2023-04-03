@@ -18,7 +18,6 @@ define(["LightstreamerClient","StatusWidget","./Constants"],function(Lightstream
   //prepare the LightstreamerClient we'll use to connect to the server
   var lsClient = new LightstreamerClient(Constants.SERVER,Constants.ADAPTER);
   lsClient.addListener(new StatusWidget("left", "5px", true));
-  lsClient.connectionSharing.enableSharing("DemoCommonConnection", "ATTACH", "CREATE");
   lsClient.connect();
 
   return lsClient;
