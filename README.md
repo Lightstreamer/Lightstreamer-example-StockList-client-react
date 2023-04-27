@@ -27,7 +27,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 * Change the current directory to the location of the file `package.json` and issue the commands `npm install` (to install React libraries) and `npm run build` (to compile Typescript files). Be sure to have installed [Node.js and npm](https://nodejs.org/en/download/).
 
 You can deploy this demo inside Lightstreamer internal web server or in any other web server.
-If you choose the former, please create the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation then copy the contents of the `dist` folder of this project there.
+If you choose the former, please create the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation then copy the contents of the `build` folder of this project there.
 
 The client demos configuration assumes that Lightstreamer Server, Lightstreamer Adapters, and this client are launched on the same machine. If you need to target a different Lightstreamer server, please search for this line:
 ```js
